@@ -19,6 +19,6 @@ I am well-versed in using a range of development tools and environments, such as
 I thrive on learning new things and pushing the boundaries of my knowledge. Challenges excite me, and I am always eager to solve complex problems and develop innovative solutions.
 
 ### Get In Touch
-Feel free to connect with me on [LinkedIn](www.linkedin.com/in/havahaviv) or check out my projects here on GitHub.
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/havahaviv) or check out my projects here on GitHub.
 
 Thanks for visiting my profile!
