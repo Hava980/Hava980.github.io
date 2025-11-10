@@ -1,7 +1,7 @@
 # Hi there, I'm Hava! 👋
 
 ### About Me
-I'm Hava Haviv, a 23-year-old Software Engineering student currently in my third year. My journey in software development has been a thrilling adventure, and I am deeply passionate about learning new technologies and tackling challenging problems.
+I'm Hava Haviv, a 25-year-old Software Engineering graduate from Azrieli College, with a strong academic record and a passion for building secure, distributed, and innovative software systems. I enjoy tackling complex problems, exploring new technologies, and contributing to projects that combine software development, cryptography, distributed systems, and real-world applications. I thrive in collaborative environments and love learning from challenges, constantly seeking to expand my skills and create impactful solutions.
 
 ### Skills
 I have gained proficiency in various programming languages, including:
