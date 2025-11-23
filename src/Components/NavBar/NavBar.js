@@ -1,6 +1,5 @@
 // src/Components/NavBar/NavBar.js
 
-import './NavBar.css';
 
 // --- NavBar Component ---
 // Receives the currently active section ID (e.g., 'about', 'skills') as a prop.
