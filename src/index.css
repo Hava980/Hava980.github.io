@@ -2,16 +2,96 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/*
+ * ==========================================================
+ * GLOBAL STYLESHEET (index.css)
+ * Defines the foundational typography and color palette.
+ * ==========================================================
+ */
+
+/* ----------------------------------------------------------
+ * 1. CSS Reset & Base Structure
+ * ---------------------------------------------------------- */
+* {
+  /* Set Box Sizing globally */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ----------------------------------------------------------
+ * 2. CSS Variables (Color Palette & Spacing)
+ * Define variables for easy, site-wide updates.
+ * ---------------------------------------------------------- */
+:root {
+  /* --- COLOR PALETTE --- */
+  --color-primary: #007bff;
+  /* Primary Accent Color (e.g., CTA buttons, active links) */
+  --color-secondary: #ff9f1c;
+  /* Secondary Accent Color (e.g., Highlights, titles in dark areas) */
+  --color-dark: #1a1a2e;
+  /* Dark Background (Hero, Contact) */
+  --color-light: #f7f7f7;
+  /* Light Background (About, Portfolio) */
+  --color-text-main: #333333;
+  /* Main Body Text Color */
+  --color-text-sub: #555555;
+  /* Secondary Text Color (e.g., descriptions) */
+
+  /* --- SPACING & SIZING --- */
+  --spacing-large: 80px;
+  /* Standard padding for sections */
+  --spacing-medium: 40px;
+  /* Standard gap/margin */
+
+  /* --- TYPOGRAPHY --- */
+  --font-stack-main: 'Roboto', 'Arial', sans-serif;
+}
+
+
+/* ----------------------------------------------------------
+ * 3. BODY & FONT DEFINITIONS
+ * These rules are inherited by the entire document.
+ * ---------------------------------------------------------- */
+body {
+  /* Set the main font family */
+  font-family: var(--font-stack-main);
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: var(--color-text-main);
+  /* Crucial for smooth scrolling between sections */
+  scroll-behavior: smooth;
+}
+
+/* Global H1, H2, H3 styling */
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-text-main);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Global link styling (inherited by most text links) */
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
+
+/* Base styling for all sections (to avoid repeating padding/max-width) */
+.section {
+  padding: var(--spacing-large) var(--spacing-medium);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Compensation for fixed NavBar */
+main {
+  padding-top: 70px;
 }
